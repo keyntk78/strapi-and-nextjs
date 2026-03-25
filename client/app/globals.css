@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-surface-variant: #e4e2e1;
+  --color-on-primary-fixed: #001c38;
+  --color-on-tertiary: #ffffff;
+  --color-inverse-primary: #a2c9ff;
+  --color-surface-container-high: #eae8e7;
+  --color-on-error-container: #93000a;
+  --color-on-tertiary-fixed-variant: #354a53;
+  --color-on-error: #ffffff;
+  --color-surface-container-low: #f6f3f2;
+  --color-surface-container-lowest: #ffffff;
+  --color-error: #ba1a1a;
+  --color-on-tertiary-container: #cee5f1;
+  --color-surface-container: #f0eded;
+  --color-background: #fbf9f8;
+  --color-surface-bright: #fbf9f8;
+  --color-inverse-on-surface: #f3f0f0;
+  --color-on-secondary-fixed: #321200;
+  --color-on-secondary-fixed-variant: #763400;
+  --color-on-tertiary-fixed: #071e27;
+  --color-outline-variant: #c1c7d3;
+  --color-primary-fixed: #d3e4ff;
+  --color-surface: #fbf9f8;
+  --color-outline: #717782;
+  --color-tertiary: #3a4f59;
+  --color-inverse-surface: #303030;
+  --color-on-primary-container: #d2e3ff;
+  --color-primary: #004e8b;
+  --color-surface-container-highest: #e4e2e1;
+  --color-secondary-fixed: #ffdbc9;
+  --color-on-background: #1b1c1c;
+  --color-tertiary-fixed: #cfe6f2;
+  --color-surface-dim: #dcd9d9;
+  --color-primary-container: #0066b3;
+  --color-secondary-fixed-dim: #ffb68d;
+  --color-secondary: #9a4600;
+  --color-secondary-container: #ff8024;
+  --color-surface-tint: #0060a9;
+  --color-error-container: #ffdad6;
+  --color-tertiary-fixed-dim: #b4cad6;
+  --color-on-secondary: #ffffff;
+  --color-on-primary: #ffffff;
+  --color-on-surface-variant: #414751;
+  --color-on-primary-fixed-variant: #004881;
+  --color-on-secondary-container: #612900;
+  --color-on-surface: #1b1c1c;
+  --color-primary-fixed-dim: #a2c9ff;
+  --color-tertiary-container: #526771;
+
+  --font-headline: "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Inter", sans-serif;
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: var(--font-body);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.industrial-gradient {
+  background: linear-gradient(135deg, #004e8b 0%, #0066b3 100%);
+}
+
+.accent-gradient {
+  background: linear-gradient(135deg, #9a4600 0%, #ff8024 100%);
+}
+
+.top-info-bar {
+  background-color: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.stats-bg-pattern {
+  background-image: linear-gradient(rgba(0, 78, 139, 0.92), rgba(0, 78, 139, 0.92)), url(https://lh3.googleusercontent.com/aida-public/AB6AXuCPVHuv0zsTC6rpFo4yAIQbVVyc44nfglCE_NOCPeJ5RHKPFpC2RsCHwR3oa43vqtoXIJpsO2ECPT-h4KjA5K8GsuNCHbp_U9VMOAqmqTTF3a9DwwsfS0HyX6DrLIeniWUzTlfJLRUs607Mc4yI5BiMCd_g5Y7ciETvJ2s9yNlgEwuxqBMM9uVWcqmdM4nKgT-ddjTgkzEWEzie4zMWr0_AUA4J2_KUVtKk7ifEJK3kwYAF9wfQjHuURrYZq4Jzu2Gvc6MQ_pilRnvf);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

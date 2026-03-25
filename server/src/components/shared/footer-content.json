@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_footer_contents",
+  "info": {
+    "displayName": "Footer Content",
+    "icon": "layout",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "shortDescription": {
+      "type": "text"
+    },
+    "copyrightText": {
+      "type": "string"
+    }
+  }
+}
