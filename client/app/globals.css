@@ -52,6 +52,13 @@
   --font-headline: "Inter", sans-serif;
   --font-body: "Inter", sans-serif;
   --font-label: "Inter", sans-serif;
+
+  @keyframes slow-zoom {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+  }
+  
+  --animate-slow-zoom: slow-zoom 20s ease-in-out infinite alternate;
 }
 
 body {

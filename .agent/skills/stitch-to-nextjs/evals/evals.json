@@ -1,0 +1,19 @@
+{
+  "skill_name": "stitch-to-nextjs",
+  "evals": [
+    {
+      "id": 1,
+      "name": "login-page-replication",
+      "prompt": "I want to replicate this login page design. Please design it in Stitch first to match the layout exactly, then use the build skill to create the Next.js components and page.",
+      "expected_output": "A Stitch screen representing the login page and Next.js React components (LoginForm, Layout) in the project.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "hero-section-replication",
+      "prompt": "Create a hero section based on this description: A bold, dark-themed hero with a neon gradient button and a glassmorphism card on the right. Design it in Stitch and then implement it in Next.js.",
+      "expected_output": "A Stitch screen with the described hero section and a corresponding Hero.tsx component in Next.js.",
+      "files": []
+    }
+  ]
+}
